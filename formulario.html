@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+  </head>
+  <body>
+    <h2>Formulario de Contacto</h2>
+
+    <!-- Inicio del formulario -->
+    <form action="/Modulo 3/index.html" method="post">
+      <div>
+        <!-- Etiqueta para el campo de nombre -->
+        <label for="nombre">Nombre:</label>
+        <!-- Campo de entrada de texto para el nombre -->
+        <input type="text" id="nombre" name="nombre" required />
+      </div>
+
+      <div>
+        <!-- Etiqueta para el campo de correo electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <!-- Campo de entrada de texto para el correo electrónico -->
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div>
+        <!-- Etiqueta para el campo de numero telefonico-->
+        <label for="telefono">Numero de telefono:</label>
+        <!-- Campo de entrada de texto para el numero telefonico -->
+        <input type="tel" id="telefono" name="telefono" required />
+      </div>
+
+      <div>
+        <!-- Etiqueta para el campo de mensaje -->
+        <label for="mensaje">Mensaje:</label>
+        <!-- Área de texto para el mensaje -->
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      </div>
+      <br />
+
+      <!-- Botón de envío del formulario -->
+      <button type="submit">Enviar</button>
+    </form>
+    <!-- Fin del formulario -->
+  </body>
+</html>
